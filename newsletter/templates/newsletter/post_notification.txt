@@ -1,0 +1,13 @@
+{{ post.title }}
+
+{{ post.excerpt }}
+
+Por {{ post.author.display_name }}{% if post.author.credential %} — {{ post.author.credential }}{% endif %}
+{{ post.published_at|date:"d/m/Y" }}
+
+Leia o artigo completo: {{ post_url }}
+
+--
+Granjimmy Hospital Psiquiátrico
+Você recebe este e-mail porque se inscreveu em nosso blog.
+Para não receber mais: {{ unsubscribe_url }}
